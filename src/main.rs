@@ -1,3 +1,5 @@
+use zecjs::*;
+
 fn main() {
-    println!("Hello, world!");
+    let x = lexer::token::Keyword::Boolean(lexer::token::Position { line: 1, column: 1 });
 }
