@@ -1,4 +1,4 @@
-use crate::lexer::token::Position;
+use super::Position;
 
 pub enum Symbol {
     OpenCurlyBracket(Position),
